@@ -1,6 +1,6 @@
 Summary:	Handler for transmitting files over KDE Telepathy
 Name:		ktp-send-file
-Version:	16.12.2
+Version:	17.04.0
 Release:	1
 Epoch:		1
 License:	GPLv2+
@@ -56,7 +56,7 @@ BuildRequires:	pkgconfig(shared-mime-info)
 %description
 Handler for transmitting files over KDE Telepathy
 
-%files
+%files -f ktp-send-file.lang
 %{_bindir}/ktp-send-file
 %{_datadir}/kservices5/ServiceMenus/ktp-send-file.desktop
 
@@ -69,3 +69,4 @@ Handler for transmitting files over KDE Telepathy
 
 %install
 %ninja_install -C build
+%find_lang ktp-send-file
