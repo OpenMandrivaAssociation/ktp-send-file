@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   ktp-send-file-17.12.1.tar.xz: f9f75056bbe574b941789fcd931d2c1991f64225
+sources:
+  ktp-send-file-17.12.2.tar.xz: a5bb4e67924352213f372eed30fcfb7abad6a84b
