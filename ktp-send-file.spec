@@ -1,6 +1,6 @@
 Summary:	Handler for transmitting files over KDE Telepathy
 Name:		ktp-send-file
-Version:	22.12.1
+Version:	22.12.2
 Release:	1
 Epoch:		1
 License:	GPLv2+
